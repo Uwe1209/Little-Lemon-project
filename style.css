@@ -1,0 +1,482 @@
+body{
+  margin: auto;
+  padding: auto;
+}
+
+header{
+  background-image: url(img/header.jpg);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.h_b{
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 700px;
+}
+
+.h_img{
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(38, 43, 36, 0));
+  opacity: 0.9;
+  height: 100px;
+  padding-top: 10px;
+}
+.h_img img{
+  width: 360px;
+  height: 80px;
+}
+
+nav{
+  text-align: center;
+}
+nav ul{
+  display: flex;
+  margin: 20px 2%;
+}
+
+nav ul li{
+  list-style-type: none;
+  width: 24%;
+  font-size: large;
+  font-weight: bold;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover{
+  color: rgba(8, 71, 8, 0.785);
+}
+
+.con_h{
+  text-align: left;
+  padding-left: 10%;
+  color: rgb(248, 238, 238);
+}
+
+.con_h h1{
+  margin-top: 150px;
+  text-shadow: 2px 2px 8px #000000;
+  font-size: 60px;
+  width: 500px;
+}
+
+.con_h p{
+  text-shadow: 2px 2px 8px #000000;
+  font-size: 21px;
+}
+
+span{
+  font-weight: bold;
+  color: rgb(149, 162, 90);
+}
+
+#b{
+  background-color: #15381ed3;
+}
+
+.sin{
+  text-align: center;
+}
+
+.sin h2{
+  color: rgba(220, 231, 240, 0.782);
+  margin: auto;
+  padding-top: 20px;
+}
+
+.sin hr{
+  width: 60%;
+  border: none; 
+  height: 2px;
+  background: linear-gradient(to right, transparent, #0d3a02, transparent);
+  margin: 20px auto;
+}
+
+.con_2{
+  margin: 0 50px;
+  text-align: left;
+  height: 450px;
+}
+
+.con_2_1 img{
+  width: 530px;
+  padding: 5px 5px 2px 5px;
+}
+
+.con_2_1{
+  float: right;
+  border: 2px solid #0d3a02
+}
+
+.sin_2{
+  padding-right: 20px;
+}
+
+.sin_2 hr{
+  border: none; 
+  height: 2px;
+  background: linear-gradient(to right, #0d3a02, transparent);
+}
+
+.sin_2 h3{
+  font-size: 30px;
+  color: #a9bdaeee;
+  text-shadow: 2px 2px 8px #000000bf;
+  margin: auto;
+}
+
+.sin_2 p{
+  color: #97a79cee;
+  font-size: 20px;
+  line-height: 1cm;
+}
+
+.fd{
+  text-align: center;
+  background-image: url(img/fd.jpg);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 30px;
+}
+.fd .con_3_1{
+  padding: 15px 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 50px;
+}
+
+.fd h2{
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #000000;
+  margin-top: 9px;
+}
+
+.sec1{
+  margin: 0 80px;
+}
+
+.con_3{
+  text-align: center;
+  display: flex;
+}
+
+.con_3 div > img{
+  width: 330px;
+  height: 300px;
+  margin: 0 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #000000;
+}
+
+.con_3 div{
+  width: 33.333%;
+}
+
+.con_3 div h3{
+  font-size: 30px;
+  color: antiquewhite;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.btn button{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: 4px solid #0d3a02;
+  border-radius: 23px 13px 18px 20px;
+}
+
+.btn{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn button:hover{
+  background-color: #0d3a02;
+  color: white;
+}
+
+.btn button:active{
+  color: bisque;
+}
+
+.eat{
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 200px;
+}
+
+.eat p{
+  color: white;
+  font-size: 22px;
+}
+
+.eat h2{
+  font-size: 60px;
+  margin: 20px auto;
+}
+
+.btn_1{
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0);
+  color: aliceblue;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.btn_1:hover{
+  background-color: white;
+  color: black;
+}
+
+.btn_1:active{
+  color: #0d3a02;
+}
+
+.con_4{
+  padding: 0 150px;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.con_4 div{
+  width: 50%;
+  text-align: center;
+}
+
+#d h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+.con_4 .even_img img{
+  width: 400px;
+  height: 580px;
+  margin-left: 30px;
+  box-shadow: 2px 2px 8px #000000;
+}
+
+.con_4 div h3{
+  font-size: 35px;
+}
+
+.con_4 div p{
+  font-size: 20px;
+  line-height: 1cm;
+}
+
+.btn_2{
+  border: 5px solid #0d3a02;
+  font-size: 30px;
+  font-weight: bold;
+  width: 250px;
+  margin-top: 30px;
+}
+
+.btn_2:hover{
+  background-color: #cbe56de1;
+}
+
+footer{
+  background-color: #b2cb72d2;
+  display: flex;
+  padding: 30px 90px;
+}
+
+footer div{
+  width: 50%;
+}
+
+footer div img{
+  width: 50px;
+}
+
+footer div p{
+  margin: auto;
+  line-height: 0.7cm;
+  text-align: right;
+}
+
+footer p:nth-child(1){
+  padding-bottom: 30px;
+}
+
+footer div hr{
+  border: 1px solid #0d3a02;
+}
+
+.lemon{
+  float: left;
+  width: 50px;
+  animation-duration: 3s;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin{
+  0%{
+
+  }
+  50%{
+    scale: 2;
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1024px){
+  .h_b{
+    height: 550px;
+  }
+
+  .con_2_1{
+    border: none;
+    float: none;
+    text-align: center;
+  }
+
+  .con_2_1 img{
+    height: 350px;
+    width: 600px;
+    border: 2px solid #0d3a02;
+  }
+
+  #b{
+    height: 800px;
+  }
+
+  .sin_2 h3{
+    font-size: 20px;
+  }
+
+  .sin_2 p{
+    font-size: 15px;
+  }
+
+  .con_3 div > img{
+    width: 250px;
+    height: 230px;
+  }
+
+  .con_3{
+    flex-wrap: wrap;
+  }
+
+  .con_3 div{
+    width: 50%;
+  }
+
+  .con_3 div h3{
+    font-size: 25px;
+  }
+
+  .eat h2{
+    font-size: 40px;
+  }
+
+  .eat p{
+    font-size: 20px;
+  }
+
+  .con_4 .even_img img{
+    height: 550px;
+    width: 300px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 850px){
+  .con_4{
+    flex-wrap: wrap;
+  }
+
+  .con_4 div{
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px){
+  .con_2_1 img{
+    height: 200px;
+    width: 350px;
+  }
+
+  #b{
+    height: 600px;
+  }
+
+  .sin_2 p{
+    line-height: 0.5cm;
+    font-size: small;
+  }
+
+  .sin_2 h3{
+    font-size: large;
+  }
+
+  .con_h h1{
+    font-size: xx-large;
+  }
+
+  .con_h p{
+    font-size: large;
+  }
+
+  .con_3 div > img{
+    width: 200px;
+    height: 180px;
+  }
+
+  .con_3 div{
+    width: 100%;
+  }
+
+  .con_3 h2{
+    font-size:medium;
+  }
+
+  .eat h2{
+    font-size: x-large;
+  }
+
+  .eat p{
+    font-size: large;
+  }
+
+  #d h2{
+    font-size: x-large;
+  }
+
+  .con_4 div h3{
+    font-size: larger;
+  }
+
+  .con_4 div p{
+    font-size: medium;
+  }
+
+  .btn_2{
+    font-size: large;
+    width: 170px;
+  }
+
+  .con_4 .even_img img{
+    height: 350px;
+    width: 200px;
+    margin-top: 50px;
+  }
+
+  .con_4{
+    padding: 0 90px;
+  }
+}
